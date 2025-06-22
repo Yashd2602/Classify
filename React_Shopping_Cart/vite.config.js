@@ -6,5 +6,5 @@ export default defineConfig(({ command }) => ({
   plugins: [react()],
   base: command === 'serve'
     ? '/'
-    : '/YouTube-Clone-App/',  // 🛑 Replace with your repo name
+    : '/Classify/',  // 🛑 Replace with your repo name
 }))
