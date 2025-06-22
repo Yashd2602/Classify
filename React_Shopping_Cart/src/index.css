@@ -221,7 +221,17 @@ margin-left: 1000px;
 .cpv{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+      gap: 80px;
+    margin-right: 85px;
+}
+.cart-value-info{
+    display: flex;
+    align-items: center;
+    gap: 98px;
+    margin-left: 692px;
+    align-items: center;
+
 }
 .cip{
     margin-top: 40px;

@@ -22,9 +22,15 @@ const[total ,setTotal] = useState();
         <img className='cpi' src={prop.image} alt="oscar" />
         <button className='rfc-btn' onClick={()=>dispatch({type:"REMOVE_FROM_CART",payload:{id:prop.id}})}>Remove From Cart</button></div>
         <h1 className='cpt'>{prop.title}</h1>
+        <div className="cart-value-info">
+          <h4>Quantity</h4>
+          <h4>Price</h4>
+          <h4>Total Value</h4>
+        </div>
         <div className='cpv'>
         <button className='cab'
-        onClick={()=>{dispatch({type:"ADD_CART_QTY",payload:{id:prop.id,},})}}>+</button><p className='ciq'>{prop.qty}</p><button className='cmb'
+        onClick={()=>{dispatch({type:"ADD_CART_QTY",payload:{id:prop.id,},})}}>+</button><p className='ciq'>{prop.qty}</p>
+        <button className='cmb'
         onClick={()=>{dispatch({type:"SUBTRACT_CART_QTY",payload:{id:prop.id,},})}}>-</button>
         <h3 className='cip'>{prop.price}</h3>
         <h3 className='cifp'>{prop.price * prop.qty}</h3>
