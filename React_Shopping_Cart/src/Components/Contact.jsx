@@ -15,7 +15,7 @@ function Contact() {
         <h2>classify2002@gmail.com</h2>
          </div>
               <div className="phone">
-        <img src={phone} alt="Phone" />
+        <img className='phone' src={phone} alt="Phone" />
         <h2>+91 9137457744</h2>
         </div>
               <div className="insta">
