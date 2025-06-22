@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     path: "/hap",
     element: <Hap />,
   },
-])
+],{basename: import.meta.env.DEV ? '/' : '/YouTube-Clone-App'})
 return(
   <RouterProvider router={router} />
 )
