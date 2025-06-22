@@ -1,11 +1,11 @@
 import React, {useState,useEffect} from "react"
 
-import Home from "./components/Home"
-import Items from "./components/Items"
-import Contact from "./components/Contact"
-import Cart from "./components/Cart"
-import NotFoundPage from "./components/NotFoundPage"
-import Hap from "./components/Hap"
+import Home from "./Components/Home"
+import Items from "./Components/Items"
+import Contact from "./Components/Contact"
+import Cart from "./Components/Cart"
+import NotFoundPage from "./Components/NotFoundPage"
+import Hap from "./Components/Hap"
 
 import {createBrowserRouter , RouterProvider} from 'react-router-dom'
 
