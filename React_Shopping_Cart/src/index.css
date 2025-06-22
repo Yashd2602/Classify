@@ -236,6 +236,12 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+.atc-btn:disabled,
+.atc-btn.disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+  color: #fff;
+}
 
 .cpt {
   font-size: 1.2rem;
