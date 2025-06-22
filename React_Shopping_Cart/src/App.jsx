@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     path: "/hap",
     element: <Hap />,
   },
-],
+])
 // {basename: import.meta.env.DEV ? '/' : '/Classify'})
 return(
   <RouterProvider router={router} />
