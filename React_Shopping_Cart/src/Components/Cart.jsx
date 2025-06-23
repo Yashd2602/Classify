@@ -46,11 +46,13 @@ const[total ,setTotal] = useState();
 <div className='sub-total'>
     <h4>Subtotal:{total}</h4></div>
         
-    <div className='check-btn'>
-      
-    <Link to="/thanks"><button className='checkout-btn'>Checkout</button></Link>
-    
-    </div>
+    <div className="check-btn">
+  <Link to={cart.length > 0 ? "/thanks" : "#"}>
+    <button className="checkout-btn" disabled={cart.length === 0}>
+      Checkout
+    </button>
+  </Link>
+</div>
     
     </>
   )
