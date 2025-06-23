@@ -257,6 +257,10 @@ a {
 .cart-value-info{
   margin-left: 150px;
 }
+.thanks{
+  text-align: center;
+  margin-top: 50px;
+}
 
 .cab, .cmb {
   padding: 5px 10px;

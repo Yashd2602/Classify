@@ -8,6 +8,7 @@ import NotFoundPage from "./Components/NotFoundPage"
 import Hap from "./Components/Hap"
 
 import {createBrowserRouter , RouterProvider} from 'react-router-dom'
+import Thanks from "./Components/Thanks"
 
 function App() {
 
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/hap",
     element: <Hap />,
+  },
+  {
+    path: "/thanks",
+    element: <Thanks />,
   },
 ],
 {basename: import.meta.env.DEV ? '/' : '/Classify'})

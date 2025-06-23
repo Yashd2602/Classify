@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Header from './Header'
 import { cartContext } from '../Context/Context'
+import { Link } from 'react-router';
 
 
 function Cart() {
@@ -47,7 +48,7 @@ const[total ,setTotal] = useState();
         
     <div className='check-btn'>
       
-    <button className='checkout-btn'>Checkout</button>
+    <Link to="/thanks"><button className='checkout-btn'>Checkout</button></Link>
     
     </div>
     
